@@ -521,7 +521,7 @@ img { max-width: 100%; display: block; }
 /* Affiliation PlaniPrêt (logo dans le pied de page) */
 .planipret-affiliation { display: flex; align-items: center; gap: 14px; margin-top: 30px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,.1); }
 .planipret-affiliation span { font-family: var(--font-sans); font-weight: 600; font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: #fff; }
-.planipret-affiliation img { height: 46px; width: auto; background: #fff; padding: 6px 10px; border-radius: 4px; }
+.planipret-affiliation img { height: 34px; width: auto; background: #fff; padding: 5px 8px; border-radius: 4px; }
 
 /* ---------- Page header (bannière interne) ---------- */
 .page-hero {
