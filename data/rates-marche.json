@@ -1,10 +1,10 @@
 {
   "source": "Banque du Canada",
-  "date": "2026-08-05",
+  "date": "2026-08-12",
   "prime": 4.45,
   "conventionnel_1an": null,
   "conventionnel_3ans": 6.05,
   "conventionnel_5ans": 6.09,
-  "obligation_5ans": 3.32,
-  "genere_le": "2026-08-12T14:41:43.240Z"
+  "obligation_5ans": 3.23,
+  "genere_le": "2026-08-14T14:33:01.773Z"
 }
