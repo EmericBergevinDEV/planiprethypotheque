@@ -126,25 +126,19 @@
     </div>
   </section>
 
-  <!-- ===== À PROPOS (split) ===== -->
+  <!-- ===== À PROPOS ===== -->
   <section class="section section--cloud">
-    <div class="container split">
-      <div class="split__media">
-        <!-- Remplacez par une photo : <img src="/assets/images/equipe.jpg" alt="L'équipe Hypostratège"> -->
-        <svg viewBox="0 0 24 24" width="80" height="80" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-      </div>
-      <div>
-        <span class="eyebrow">À propos</span>
-        <h2>Le courtage hypothécaire, à visage humain</h2>
-        <p>Chez Hypostratège, vous n'êtes jamais un numéro de dossier. Notre équipe met son expérience combinée au service d'un accompagnement personnalisé, où vous vous sentez guidé, écouté et soutenu à chaque étape.</p>
-        <ul class="list-check">
-          <li>Accès à plus de 20 prêteurs, un seul interlocuteur</li>
-          <li>Des conseils transparents, sans jargon inutile</li>
-          <li>Un service gratuit pour vous, financé par le prêteur</li>
-          <li>Encadrés par l'Autorité des marchés financiers (AMF)</li>
-        </ul>
-        <a href="/a-propos/" class="btn btn--royal" style="margin-top:10px;">Découvrir notre approche</a>
-      </div>
+    <div class="container text-center" style="max-width:800px;">
+      <span class="eyebrow mx-auto" style="justify-content:center;">À propos</span>
+      <h2>Le courtage hypothécaire, à visage humain</h2>
+      <p class="lead mx-auto">Chez Hypostratège, vous n'êtes jamais un numéro de dossier. Notre équipe met son expérience combinée au service d'un accompagnement personnalisé, où vous vous sentez guidé, écouté et soutenu à chaque étape.</p>
+      <ul class="list-check mx-auto" style="text-align:left; max-width:440px;">
+        <li>Accès à plus de 20 prêteurs, un seul interlocuteur</li>
+        <li>Des conseils transparents, sans jargon inutile</li>
+        <li>Un service gratuit pour vous, financé par le prêteur</li>
+        <li>Encadrés par l'Autorité des marchés financiers (AMF)</li>
+      </ul>
+      <a href="/a-propos/" class="btn btn--royal" style="margin-top:20px;">Découvrir notre approche</a>
     </div>
   </section>
 
@@ -173,47 +167,7 @@
     </div>
   </section>
 
-  <!-- ===== TAUX ===== -->
-  <section class="section section--cloud" id="taux">
-    <div class="container">
-      <div class="text-center" style="max-width:700px;margin:0 auto 44px;">
-        <span class="eyebrow">Les taux du jour</span>
-        <h2>La transparence avant tout</h2>
-        <p class="lead mx-auto">Un bon taux est important. Une bonne stratégie, encore plus. Voici un aperçu des taux actuels — notre rôle est de vous aider à choisir celui qui correspond réellement à vos objectifs.</p>
-      </div>
 
-      <!-- Tableau comparatif — lu dans le Google Sheet (modifiable sans code) -->
-      <table class="rates">
-        <thead>
-          <tr><th>Type de prêt</th><th>Taux banque*</th><th>Taux PlaniPrêt**</th></tr>
-        </thead>
-        <tbody id="rates-body">
-          <tr><td>1 an fixe</td><td class="rate-bank">6,89 %</td><td><strong>4,74 %</strong></td></tr>
-          <tr><td>2 ans fixe</td><td class="rate-bank">6,34 %</td><td><strong>4,14 %</strong></td></tr>
-          <tr><td>3 ans fixe</td><td class="rate-bank">6,19 %</td><td><strong>4,04 %</strong></td></tr>
-          <tr><td>3 ans variable fermé</td><td class="rate-bank">5,95 %</td><td><strong>4,45 %</strong></td></tr>
-          <tr><td>4 ans fixe</td><td class="rate-bank">6,24 %</td><td><strong>4,09 %</strong></td></tr>
-          <tr><td>5 ans fixe</td><td class="rate-bank">6,29 %</td><td><strong>4,09 %</strong></td></tr>
-          <tr><td>Variable 5 ans</td><td class="rate-bank">5,40 %</td><td><strong>3,00 %</strong></td></tr>
-          <tr><td>Refinancement fixe ou variable</td><td class="rate-bank">7,65 %</td><td><strong>3,00 %</strong></td></tr>
-          <tr><td>7 ans fixe</td><td class="rate-bank">6,69 %</td><td><strong>4,44 %</strong></td></tr>
-          <tr><td>10 ans fixe</td><td class="rate-bank">7,14 %</td><td><strong>5,04 %</strong></td></tr>
-          <tr><td>Marge de crédit</td><td class="rate-bank">5,45 %</td><td><strong>4,95 %</strong></td></tr>
-        </tbody>
-      </table>
-      <p class="rate-source" id="rate-taux-source"></p>
-
-      <!-- Indicateurs de référence — mis à jour automatiquement (Banque du Canada) -->
-      <p class="rate-block-title" style="margin-top:52px;">Indicateurs du marché</p>
-      <div class="rate-chips">
-        <div class="rate-chip"><span class="rate-chip__label">Taux préférentiel</span><span class="rate-chip__value" data-marche="prime">4,45 %</span></div>
-        <div class="rate-chip"><span class="rate-chip__label">Obligation 5 ans</span><span class="rate-chip__value" data-marche="obligation_5ans">3,14 %</span></div>
-      </div>
-      <p class="rate-source" id="rate-marche-source">Taux de référence — Banque du Canada.</p>
-
-      <p class="rates-note">*Taux affichés en institution, à titre comparatif. **Taux obtenus par l'entremise de PlaniPrêt. Tous les taux sont fournis à titre indicatif, sujets à changement sans préavis et selon l'admissibilité du dossier. Certaines conditions s'appliquent. Communiquez avec nous pour une soumission personnalisée.</p>
-    </div>
-  </section>
 
   <!-- ===== TÉMOIGNAGES ===== -->
   <section class="section">
@@ -279,6 +233,10 @@
             <li><a href="https://api.leadconnectorhq.com/widget/booking/7oy24iaE35i8vJyzKGAg">Formulaire de contact</a></li>
           </ul>
         </div>
+      </div>
+      <div class="footer-social" style="margin-top:40px; margin-bottom:20px; display:flex; gap:20px;">
+        <a href="#" target="_blank" rel="noopener" style="text-decoration:underline;">Facebook</a>
+        <a href="#" target="_blank" rel="noopener" style="text-decoration:underline;">LinkedIn</a>
       </div>
       <div class="planipret-affiliation"><span>Affiliée à</span><img src="/assets/images/logo-planipret.png" alt="Planiprêt — Cabinet en courtage hypothécaire" /></div>
       <p class="footer-disclaimer">Hypostratège est une équipe de courtiers hypothécaires encadrés par l'Autorité des marchés financiers (AMF). Le courtage hypothécaire est offert par l'entremise de PlaniPrêt. Les taux affichés sont fournis à titre indicatif et peuvent changer sans préavis.</p>
