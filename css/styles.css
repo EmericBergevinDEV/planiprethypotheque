@@ -352,7 +352,7 @@ img { max-width: 100%; display: block; }
   display: grid; place-items: center;
   color: rgba(216,180,99,.85);
 }
-.split__media img { width: 100%; height: 100%; object-fit: cover; border-radius: inherit; }
+.split__media img { width: 100%; height: 100%; object-fit: cover; object-position: center top; border-radius: inherit; }
 /* Cadres d'angle dorés (motif architectural) */
 .split__media::before,
 .split__media::after {
